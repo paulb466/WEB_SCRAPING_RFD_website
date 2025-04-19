@@ -4,7 +4,7 @@ This is my script to web scrape the redflagdeals.com website for trending topics
 
 
 
-Basic Structure of the script:
+Basic Structure of the script:<br>
 LOOP
 Scrapes link for:
 
