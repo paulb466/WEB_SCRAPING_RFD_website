@@ -6,18 +6,14 @@ This is my script to web scrape the redflagdeals.com website for trending topics
 
 Basic Structure of the script:<br>
 LOOP<br>
-Scrapes link for:
+- Scrapes link for:
+  - title
+  - link
+  - trending score
 
-title
-link
-trending score
+- check if item is a new item.
+    - if it is it stores it in a dictionary & sends it to telegram
 
-check if item is a new item
-
-if it is it stores it in a dictionary
-sends it to telegram
-
-at 4:30am clear out the dictionary
-
-so that dictionary doesnt get too large and bogs down the script
-dont send telegram message on first pass so that after clearing out the dictionary at 430am you get alot of new item messages
+- at 4:30am clear out the dictionary
+    - so that dictionary doesnt get too large and bogs down the script
+- dont send telegram message on first pass so that after clearing out the dictionary at 430am you get alot of new item messages
