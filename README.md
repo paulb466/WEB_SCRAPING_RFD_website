@@ -16,4 +16,4 @@ LOOP<br>
 
 - at 4:30am clear out the dictionary
     - so that dictionary doesnt get too large and bogs down the script
-- dont send telegram message on first pass so that after clearing out the dictionary at 430am you get alot of new item messages
+- dont send telegram message on first pass so that after clearing out the dictionary at 430am you dont get alot of new item messages
